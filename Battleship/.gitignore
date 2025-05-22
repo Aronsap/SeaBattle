@@ -9,12 +9,27 @@
 Debug/
 Release/
 x64/
+x86/
 *.obj
 *.exe
 *.pdb
+*.ilk
+*.idb
 
-# Other
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Logs and backups
 *.log
 *.bak
 *.tmp
 *.cache
+
+# Auto-generated files
+*.tlog
+*.lastbuildstate
+*.opensdf
+*.sdf
