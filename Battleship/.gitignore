@@ -1,0 +1,20 @@
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.VC.db
+*.opendb
+
+# Build results
+Debug/
+Release/
+x64/
+*.obj
+*.exe
+*.pdb
+
+# Other
+*.log
+*.bak
+*.tmp
+*.cache
