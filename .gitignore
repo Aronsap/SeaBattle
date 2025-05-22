@@ -1,0 +1,18 @@
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build results
+Debug/
+Release/
+x64/
+*.obj
+*.exe
+*.pdb
+*.log
+
+# Others
+*.VC.db
