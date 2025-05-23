@@ -1,35 +1,70 @@
-# Visual Studio
-.vs/
+# Файлы пользователя
 *.user
 *.suo
-*.VC.db
-*.opendb
+*.userosscache
+*.sln.docstates
+*.csproj.user
 
-# Build results
-Debug/
-Release/
+# Результаты сборки
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
 x64/
-x86/
-*.obj
-*.exe
-*.pdb
-*.ilk
-*.idb
+build/
+bld/
 
-# CMake
-CMakeFiles/
-CMakeCache.txt
-cmake_install.cmake
-Makefile
-
-# Logs and backups
-*.log
-*.bak
-*.tmp
+# Кэш и временные файлы
 *.cache
-
-# Auto-generated files
-*.tlog
-*.lastbuildstate
-*.opensdf
+*.log
+*.tmp
+*.temp
+*.pidb
+*.svclog
 *.sdf
+*.dbmdl
+*.opendb
+*.VC.db
+*.VC.opendb
+
+# Файлы Visual Studio
+.vs/
+*.ncb
+*.aps
+*.psess
+*.vsp
+*.vspx
+*.vspscc
+*.vssscc
+*.scc
+
+# Папки и файлы NuGet
+packages/
+*.nupkg
+*.snupkg
+*.nuspec
+project.lock.json
+project.fragment.lock.json
+
+# Файлы ReSharper
+_ReSharper*/
+*.ReSharper
+*.DotSettings.user
+
+# Папки и файлы VS Code
+.vscode/
+*.code-workspace
+
+# Резервные и временные файлы
+*~
+*.bak
+*.old
+*.orig
+*.tmp
+
+# Файлы InstallShield
+[Ee]xpress/
+
+# Файлы SQL Server
+*.mdf
+*.ldf
