@@ -75,7 +75,7 @@ bool processMove(char field[FIELD_SIZE][FIELD_SIZE], char visibleField[FIELD_SIZ
 		}
 	}
 
-	if (field[row][col] == '-') {
+	if (field[row][col] == '~') {
 		field[row][col] = '*';
 		visibleField[row][col] = '*';
 
@@ -114,9 +114,9 @@ void startNewGame() {
 
 	for (int row = 0; row < FIELD_SIZE; row++) {
 		for (int col = 0; col < FIELD_SIZE; col++) {
-			playerField[row][col] = '-';
-			aiField[row][col] = '-';
-			aiVisibleField[row][col] = '-';
+			playerField[row][col] = '~';
+			aiField[row][col] = '~';
+			aiVisibleField[row][col] = '~';
 
 		}
 	}
